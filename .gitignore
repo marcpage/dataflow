@@ -1,3 +1,6 @@
+/dependencies
+/build
+
 CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles
@@ -10,6 +13,29 @@ compile_commands.json
 CTestTestfile.cmake
 _deps
 CMakeUserPresets.json
+.vscode
+*.pyc
+.coverage
+.venv
+
+# macOS
+.DS_Store
+.DS_Store?
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Ignore temp, swap and intermediate files
+*.swp
+*~.nib
+*.o
+*.obj
+*.pch
 
 # CLion
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
